@@ -1,0 +1,332 @@
+* {
+    margin: 0;
+    /* padding: 0; */
+    box-sizing: border-box;
+}
+
+.container {
+    height: 10000px;
+    width: 1460px;
+    padding: 20px;
+    /* border: 2px solid black; */
+    background-color: rgb(251, 228, 228);
+}
+
+h1 {
+    color: brown;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.main1 {
+    width: 200px;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    /* margin: 0px 10px; */
+    display: flex;
+    gap: 10px;
+    flex-direction: row;
+
+}
+
+.item1,
+.item2,
+.item3 {
+    width: 50px;
+    height: 50px;
+    color: white;
+    background-color: brown;
+    border-radius: 5px;
+    padding: 15px;
+    text-align: center;
+    /* justify-content: center; */
+}
+
+.item4,
+.item5,
+.item6 {
+    width: 50px;
+    /* height: 50px; */
+    color: white;
+    background-color: brown;
+    border-radius: 5px;
+    padding: 15px;
+    text-align: center;
+    /* justify-content: center; */
+}
+
+.item7,
+.item8,
+.item9 {
+    width: 20px;
+    /* height: 50px; */
+    color: white;
+    background-color: brown;
+    border-radius: 5px;
+    padding: 15px;
+    text-align: center;
+    /* justify-content: center; */
+}
+
+.item10,
+.item11,
+.item12,
+.item13,
+.item14,
+.item15 {
+    width: 50px;
+    /* height: 50px; */
+    color: white;
+    background-color: brown;
+    border-radius: 5px;
+    padding: 25 px;
+    text-align: center;
+    /* justify-content: center; */
+}
+
+.main2 {
+    width: 200px;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    /* margin: 0px 10px; */
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+}
+
+.main3 {
+    width: 200px;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    /* margin: 0px 10px; */
+    display: flex;
+    gap: 10px;
+    flex-direction: row-reverse;
+}
+
+.main4 {
+    width: 200px;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    /* margin: 0px 10px; */
+    display: flex;
+    gap: 10px;
+    flex-direction: column-reverse;
+}
+
+.main5 {
+    width: 200px;
+    height: 200px;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    /* margin: 0px 10px; */
+    display: flex;
+    gap: 10px;
+    /* flex-direction: row; */
+    align-items: flex-start;
+}
+
+.main6 {
+    width: 200px;
+    height: 200px;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    /* margin: 0px 10px; */
+    display: flex;
+    gap: 10px;
+    /* flex-direction: row; */
+    align-items: center;
+}
+
+.main7 {
+    width: 200px;
+    height: 200px;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    /* margin: 0px 10px; */
+    display: flex;
+    gap: 10px;
+    /* flex-direction: row; */
+    align-items: flex-end;
+}
+
+.main8 {
+    width: 200px;
+    height: 200px;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    /* margin: 0px 10px; */
+    display: flex;
+    gap: 10px;
+    /* flex-direction: row; */
+    align-items: stretch;
+}
+
+.main9 {
+    width: 300px;
+    height: 200px;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    /* margin: 0px 10px; */
+    display: flex;
+    gap: 10px;
+    /* flex-direction: row; */
+    justify-content: flex-start;
+}
+
+.main10 {
+    width: 300px;
+    height: 200px;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    /* margin: 0px 10px; */
+    display: flex;
+    gap: 10px;
+    /* flex-direction: row; */
+    justify-content: center;
+}
+
+.main11 {
+    width: 300px;
+    height: 200px;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    /* margin: 0px 10px; */
+    display: flex;
+    gap: 10px;
+    /* flex-direction: row; */
+    justify-content: flex-end;
+}
+
+.main12 {
+    width: 300px;
+    height: 200px;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    /* margin: 0px 10px; */
+    display: flex;
+    gap: 10px;
+    /* flex-direction: row; */
+    justify-content: space-between;
+}
+
+.main13 {
+    width: 300px;
+    height: 200px;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    /* margin: 0px 10px; */
+    display: flex;
+    gap: 10px;
+    /* flex-direction: row; */
+    justify-content: space-around;
+}
+
+.main14 {
+    width: 300px;
+    height: 200px;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    /* margin: 0px 10px; */
+    display: flex;
+    gap: 10px;
+    /* flex-direction: row; */
+    justify-content: space-evenly;
+}
+
+.main15 {
+    width: 200px;
+    height: 200px;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    /* margin: 0px 10px; */
+    display: flex;
+    gap: 10px;
+    /* flex-direction: row; */
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+
+.main16 {
+    width: 200px;
+    height: 200px;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    /* margin: 0px 10px; */
+    display: flex;
+    gap: 10px;
+    /* flex-direction: row; */
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+.main17 {
+    width: 200px;
+    height: 200px;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    /* margin: 0px 10px; */
+    display: flex;
+    gap: 10px;
+    /* flex-direction: row; */
+    flex-wrap: wrap;
+    align-content: flex-end;
+}
+
+.main18 {
+    width: 200px;
+    height: 200px;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    /* margin: 0px 10px; */
+    display: flex;
+    gap: 10px;
+    /* flex-direction: row; */
+    flex-wrap: wrap;
+    align-content: space-between;
+}
+
+.main19 {
+    width: 200px;
+    height: 200px;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    /* margin: 0px 10px; */
+    display: flex;
+    gap: 10px;
+    /* flex-direction: row; */
+    flex-wrap: wrap;
+    align-content: space-around;
+}
+
+.main20 {
+    width: 200px;
+    height: 200px;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    /* margin: 0px 10px; */
+    display: flex;
+    gap: 10px;
+    /* flex-direction: row; */
+    flex-wrap: wrap;
+    align-content: stretch;
+}
